@@ -90,7 +90,7 @@ a {
         font-size: 1.2rem;
     }
 
-    .search-form * {
+    .search-form > * {
         padding: 1rem 1.5rem;
         font-size: 1.2rem;
     }
@@ -102,7 +102,8 @@ a {
 
     .search-form input {
         flex-basis: 16rem;
-        border: 1px solid var(--lightgrey)
+        border: 1px solid var(--lightgrey);
+        overflow: auto;
     }
 
     .search-form input::placeholder {
@@ -125,4 +126,18 @@ a {
     .search-form button:hover {
         opacity: 1;
         transform: scale(1.02);
+    }
+
+    .fas.fa-search {
+            display: none;
+        }
+
+    @media (max-width: 992px) {
+        .search-form .search-text {
+            display: none;
+        }
+        .fas.fa-search {
+            background-color: inherit;
+            display: inline;
+        }
     }
