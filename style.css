@@ -87,10 +87,12 @@ a {
     .search-form {
         display: flex;
         align-items: center;
+        font-size: 1.2rem;
     }
 
     .search-form * {
         padding: 1rem 1.5rem;
+        font-size: 1.2rem;
     }
 
     .search-form i {
@@ -105,16 +107,22 @@ a {
 
     .search-form input::placeholder {
         color: inherit;
-        font-size: 1.2rem;
+        font-weight: bold;
 
     }
 
     .search-form button {
         background-color: var(--blue);
         color: white;
-        font-size: 1.2rem;
         font-weight: bold;
         border-radius: 0 1rem 1rem 0;
         border: none;
         cursor: pointer;
+        opacity: 0.9;
+        transition: transform 200ms;
+    }
+
+    .search-form button:hover {
+        opacity: 1;
+        transform: scale(1.02);
     }
