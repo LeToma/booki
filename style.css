@@ -8,6 +8,7 @@
 @import url("./css/results-message.css");
 @import url("./css/apartment-card.css");
 @import url("./css/popular-card.css");
+@import url("./css/activities.css");
 :root {
   --blue: #0065fc;
   --darkgrey: #d9d9d9;
