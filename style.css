@@ -229,7 +229,7 @@ nav a:hover {
     flex-basis: 33%;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .apartments-list {
         flex-direction: column;
     }
@@ -324,7 +324,7 @@ flex-basis: 100%;
 
 .popular-card {
     display: flex;
-    min-width: 15rem;
+    min-width: 25rem;
     max-height: 10rem;
 }
 
